@@ -10,9 +10,12 @@ body{background-color:hotpink ;}
         
     </style>
  <script>
-        // javascript   
+     var messages = ["Smile", "Be Happy", "Stay Positive", "You Can Do It"];
+     var len = messages.length;   
+     // javascript   
     function hi() {
-     alert('Hello! Thanks for visiting my website!');
+     alert( 
+         messages[ Math.floor(Math.random() * len) ]   ); 
     }
 
     </script>
